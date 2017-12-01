@@ -1,0 +1,6 @@
+Do iList.$define(lLevel0,lLevel1,lLevel2,lIcon,lIdent,lEnterable,lExpand,lTextcolor)
+Do iList.$add(con(style(kEscStyle,kBold),'Germany'),'','',0,100,0,2,0)
+Do iList.$add('Germany',con(style(kEscStyle,kItalic),'Manufacturer'),'',0,101,0,2,0)
+Do iList.$add('Germany','Manufacturer',con(style(kEscStyle,kUnderline),'Porsche'),0,102,0,2,0)
+Do iList.$add('Germany','Manufacturer',con(style(kEscLTab,100),'Mercedes'),0,103,0,2,0)
+Do iList.$add('Germany','Manufacturer',con(style(kEscColor,kBlue),'BMW'),0,103,0,2,0)
